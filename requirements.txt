@@ -1,0 +1,4 @@
+pystray
+pillow
+# Optional but recommended for more accurate browser URL detection
+uiautomation
