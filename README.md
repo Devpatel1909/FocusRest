@@ -74,7 +74,42 @@ Without extra setup, websites are guessed from the browser window title. For exa
 python -m pip install uiautomation
 ```
 
-## Usage
+## How to use
+
+### 1. First launch
+1. Double-click `rest_reminder.pyw`. A "FocusRest is running" notification appears and the icon shows near the clock (system tray).
+2. Click the tray icon to open the dashboard. Close it with **X** and it keeps running in the background.
+
+### 2. Get your rest reminders
+1. Leave the app running. After 20 minutes you get a notification and a **Rest your eyes** window with a 20-second countdown.
+2. Look at something about 20 feet (6 metres) away until the timer ends.
+3. A "Rest over" notification tells you to get back to work, and the next 20-minute countdown starts by itself.
+
+Want to rest early? Click **Rest now** in the app, the sidebar or the tray menu. To stop the countdown for a while, click **Pause**, then **Resume** later.
+
+### 3. Change the settings
+Open **Rest Timer** from the sidebar (or the gear icon at the top):
+- **Remind me every (minutes):** how often to rest.
+- **Rest for (seconds):** how long each rest lasts.
+- **Track app & website usage:** switch tracking off to stop recording.
+- **Beep sound:** play an alarm when the rest ends (off by default).
+- **Start with Windows:** launch FocusRest automatically when you sign in.
+
+### 4. See where your time goes
+- **Dashboard:** today at a glance. Use **24h / 7d** to switch the chart, and hover a bar for details.
+- **Applications:** time per app. Click a browser row to expand the websites inside it.
+- **Websites:** time per site. Filter by browser using the dropdown.
+- **Quick search:** type an app or site name in the top bar and press **Enter**.
+- **Date picker:** choose an earlier day to review it.
+- **Export CSV:** save the selected day's data to a spreadsheet file.
+
+### 5. Control it from the tray
+Right-click the tray icon for **Open**, **Pause / Resume**, **Rest now**, **Beep sound**, **Start with Windows** and **Quit FocusRest**. Hover the icon to see the time left until the next rest.
+
+### 6. Quit completely
+The **X** button only hides the window. To fully close the app, right-click the tray icon and choose **Quit FocusRest**.
+
+## Reference
 
 | Where | What you can do |
 | --- | --- |
